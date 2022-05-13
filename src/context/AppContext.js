@@ -1,4 +1,5 @@
-import { createContext, useReducer } from "react";
+import React, { createContext, useReducer } from "react";
+import { v4 as uuidv4 } from 'uuid';
 
 /* Updates the state based on the action */
 const AppReducer = (state, action) => {
@@ -15,18 +16,23 @@ const AppReducer = (state, action) => {
           (expense) => expense.id !== action.payload
         ),
       };
-      default:
-        return state;
-  }
-}
+    case 'SET_BUDGET':
+      return {
+        ...state,
+        budget: action.payload,
+      }
+    default:
+      return state;
+  };
+};
 
 /* Sets the initial state when the app is loaded */
 const initialState = {
   budget: 5000,
   expenses: [
-    { id: 12, name: 'Shopping', cost: 40 },
-    { id: 13, name: 'Holiday', cost: 500 },
-    { id: 14, name: 'Car service', cost: 50 },
+    { id: uuidv4(), name: 'Shopping', cost: 100 },
+    { id: uuidv4(), name: 'Holiday', cost: 500 },
+    { id: uuidv4(), name: 'Car service', cost: 50 },
   ],
 };
 
@@ -42,11 +48,12 @@ export const AppProvider = (props) => {
   return (
     <AppContext.Provider
       value={{
-        budget: state.budget,
         expenses: state.expenses,
+        budget: state.budget,
         dispatch,
       }}
     >
       {props.children}
-    </AppContext.Provider>)
+    </AppContext.Provider>
+  );
 };
