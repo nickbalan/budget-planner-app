@@ -21,6 +21,9 @@ const AddExpenses = () => {
       type: 'ADD_EXPENSE',
       payload: expense,
     })
+
+    setName('');
+    setCost('');
   }; 
 
   return (
@@ -41,11 +44,11 @@ const AddExpenses = () => {
         </div>
         <div className='col-sm col-lg-4'>
           <label htmlFor='cost'>
-            Enter amount
+            Cost
           </label>
           <input
             required='required'
-            type='text'
+            type='number'
             className='form-control'
             id='cost'
             value={cost}
