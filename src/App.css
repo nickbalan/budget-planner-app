@@ -1,0 +1,59 @@
+.bugetTitleBox {
+  width: auto;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+
+  background: #264653;
+}
+
+.bugetText {
+  position: absolute;
+  width: 512px;
+  height: 48px;
+  left: 45px;
+  top: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+
+  /* identical to box height, or 100% */
+  letter-spacing: -1.5px;
+
+  color: #ffffff;
+}
+
+.budgetBox {
+
+  width: 321px;
+  height: 225px;
+  left: 162px;
+  top: 163px;
+
+  background: #ffffff;
+
+  /* Shadow / 200 */
+  box-shadow: 0px 8px 12px rgba(167, 176, 192, 0.32);
+  border-radius: 20px;
+}
+
+.monthlyBudget {
+  /* Display/Large 40 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  /* identical to box height, or 120% */
+  letter-spacing: -1.5px;
+
+  color: #000000;
+}
+
+

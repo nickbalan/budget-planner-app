@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { TiDelete } from 'react-icons/ti';
+import { RiDeleteBinLine } from 'react-icons/ri';
 import { AppContext } from '../context/AppContext';
 
 const ExpenseItem = (props) => {
@@ -15,10 +15,10 @@ const ExpenseItem = (props) => {
     <li className='list-group-item d-flex justify-content-between align-items-center'>
       {props.name}
       <div>
-        <span className='badge rounded-pill bg-primary'>
+        <span className='badge rounded-pill bg-danger'>
           €{props.cost}
         </span>
-        <TiDelete size='1.5em' onClick={handleDeleteExpense}></TiDelete>
+        <RiDeleteBinLine size='1.5em' onClick={handleDeleteExpense}></RiDeleteBinLine>
       </div>
     </li>
   );

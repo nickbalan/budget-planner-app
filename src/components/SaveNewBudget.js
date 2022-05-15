@@ -15,7 +15,7 @@ const SaveNewBudget = (props) => {
       />
       <button 
       type="button"
-      className='btn btn-primary'
+      className='btn btn-outline-success'
       onClick={() => props.handleSaveClick(value)}
       >
         Save
