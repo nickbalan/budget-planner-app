@@ -26,7 +26,7 @@ const App = () => {
           </div>
         </div>
         <div>
-          <h3 className='mt-3'>Monthly expenses detailed list</h3>
+          <h3 className='mt-3'>Monthly expenses list</h3>
           <div className='row'>
             <div className='col-sm'>
               <ExpenseList />
