@@ -12,27 +12,22 @@ expenditures, and manage their budget(s).
 Produce two iterations over a two-week sprint.
 
 ## Project Deliverables
-● User flow diagram
-● Low-fidelity prototype
-● Implementation plan
-● Feasibility and scoping documentation
-● High-fidelity prototype
-● Code repository with launch history
-● QA test documentation
-● Final prototype
-● Final deployed feature (live)
-● Project case study
+- User flow diagram
+- Low-fidelity prototype
+- Implementation plan
+- Feasibility and scoping documentation
+- High-fidelity prototype
+- Code repository with launch history
+- QA test documentation
+- Final prototype
+- Final deployed feature (live)
+- Project case study
 
 ## Feature User Stories
 The following is a list of user stories for the new financial planning feature:
-● As a user, I want to be able to add a budget amount;
-● As a user, I want to be able to edit a budget amount;
-● As a user, I want to be able to delete a budget amount;
-● As a user, I want to be able to add expenses from the budget;
-● As a user, I want to be able to edit expenses from the budget;
-● As a user, I want to be able to delete expenses from the budget;
-● As a user, I want to be able to see my total balance after expenses have been extracted from
-my budgeted amount.
+- As a user, I want to be able to add, edit, and delete a monthly budget
+- As a user, I want to make monthly budget entries (enter, change & delete expenses)
+- As a user, I want to be able to see the total balance after expenses and the total monthly expenses.
 
 ## Getting Started with Create React App
 
