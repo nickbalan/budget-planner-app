@@ -1,12 +1,15 @@
-# Budget Planner
+# Budget Planner. Technical Case Study
 Scenario - You're working for a fintech company preparing to launch a new financial planning feature in its
 web app. User research showed that this is its most needed feature and generated useful
 insights into how the company would like it to work. Together you and your teammate need to design
 and launch this new feature in a two-week sprint.
 
-## Project Objective
-To design and implement a financial planning feature that allows users to track their income and
-expenditures, and manage their budget(s).
+## Objective
+To design and implement a financial planning feature for a fintech web app that allows users: 
+1. To add, edit, and delete a monthly budget
+2. To make monthly budget entries (enter, change & delete expenses)
+3. To see the total balance after expenses and monthly expenses.
+
 
 ## Project Duration & Scope
 Produce two iterations over a two-week sprint.
@@ -27,7 +30,7 @@ Produce two iterations over a two-week sprint.
 The following is a list of user stories for the new financial planning feature:
 - As a user, I want to be able to add, edit, and delete a monthly budget
 - As a user, I want to make monthly budget entries (enter, change & delete expenses)
-- As a user, I want to be able to see the total balance after expenses and the total monthly expenses.
+- As a user, I want to be able to see the total balance after expenses and monthly expenses.
 
 ## Getting Started with Create React App
 
@@ -99,3 +102,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Budget Planner screenshot
+
+![Livescreen](src/img/Monthly_Budgeting_Tool_v1.JPG)
