@@ -1,20 +1,26 @@
-# Budget Planner. Technical Case Study
-Scenario - You're working for a fintech company preparing to launch a new financial planning feature in its
+# Budget Planner App. Technical Case Study
+
+## Objective
+
+Build a financial planning prototype feature for an existing fintech web app that allows users:
+
+1. To add, edit, and delete a monthly budget
+2. To make monthly budget entries (enter, change & delete expenses)
+3. To have a dashboard with a total balance after costs and monthly payments.
+
+## Scenario
+
+You're working for a fintech company preparing to launch a new financial planning feature in its
 web app. User research showed that this is its most needed feature and generated useful
 insights into how the company would like it to work. Together you and your teammate need to design
 and launch this new feature in a two-week sprint.
 
-## Objective
-To design and implement a financial planning feature for a fintech web app that allows users: 
-1. To add, edit, and delete a monthly budget
-2. To make monthly budget entries (enter, change & delete expenses)
-3. To see the total balance after expenses and monthly expenses.
-
-
 ## Project Duration & Scope
+
 Produce two iterations over a two-week sprint.
 
 ## Project Deliverables
+
 - User flow diagram
 - Low-fidelity prototype
 - Implementation plan
@@ -27,7 +33,9 @@ Produce two iterations over a two-week sprint.
 - Project case study
 
 ## Feature User Stories
+
 The following is a list of user stories for the new financial planning feature:
+
 - As a user, I want to be able to add, edit, and delete a monthly budget
 - As a user, I want to make monthly budget entries (enter, change & delete expenses)
 - As a user, I want to be able to see the total balance after expenses and monthly expenses.
