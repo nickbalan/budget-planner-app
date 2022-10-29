@@ -40,6 +40,10 @@ The following is a list of user stories for the new financial planning feature:
 - As a user, I want to make monthly budget entries (enter, change & delete expenses)
 - As a user, I want to be able to see the total balance after expenses and monthly expenses.
 
+## Project Owner, Management, and Acknowledgement
+
+[CareerFoundry](https://careerfoundry.com/)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
