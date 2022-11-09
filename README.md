@@ -117,4 +117,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Budget Planner screenshot
 
-![Livescreen](src/img/Monthly_Budgeting_Tool_v1.JPG)
+![Livescreen](src/img/Budget_Planner_App.JPG)
