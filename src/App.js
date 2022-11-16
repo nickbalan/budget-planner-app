@@ -12,7 +12,7 @@ const App = () => {
   return (
     <AppProvider>
       <div className='bugetTitleBox'>
-        <h1 className='bugetText'>Monthly Budgeting Tool</h1>
+        <h1 className='bugetText'>Budget Planner App</h1>
       </div>
       <div className='container'>
         <div className='row mt-3'>
